@@ -1,8 +1,10 @@
 # shell_emulator
-small bash - like terminal.  Suppports (3) built-in commands that fork processes off of the main process as blocking or background commands
-exit : exits the program
-status : checks exit status of last command
-cd : as expected
+small bash - like terminal.  Suppports (3) built-in commands that fork processes as blocking or background commands.
+
+Built-In commands:
+exit - exits the program
+status - checks exit status of last command
+cd - as expected
 
 supports background and foreground processes using the '&' symbol.
 
