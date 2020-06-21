@@ -2,15 +2,15 @@
 small bash - like terminal.  Suppports (3) built-in commands that fork processes as blocking or background commands.
 
 Built-In commands:
+
 exit - exits the program
+
 status - checks exit status of last command
+
 cd - as expected
 
-supports background and foreground processes using the '&' symbol.
 
-the other commands are parsed and passed back to the shell, if valid they will run as expected, if invalid
-will return error.
-
+supports background and foreground processes using the '&' symbol.  Other commands are parsed and passed back to the shell.  If valid they will run as expected, if invalid they will return an error.
 
 best if using bash terminal.
 
